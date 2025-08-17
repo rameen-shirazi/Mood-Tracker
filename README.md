@@ -5,7 +5,7 @@ Mood Tracker is a lightweight web app to track moods and display a random quote 
 Built with HTML, CSS, and beginner-level JavaScript as part of my web development learning journey.
 
 ## Live Demo
-- Click here to try it right now:{https://rameen-shirazi.github.io/Mood-Tracker/}
+- Click here to try it right now:(https://rameen-shirazi.github.io/Mood-Tracker/)
   
 ## Features  
 - Select moods (Happy, Sad, Neutral, etc.)  
