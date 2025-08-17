@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>How are you feeling today?</h1>
+            <p>Track your mood and get inspired</p>
+        </header>
+
+        <div class="mood-scroll-wrapper">
+            <div class="mood-options">
+                <div class="mood" data-mood="happy">
+                    <div class="emoji">😊</div>
+                    <p>Happy</p>
+                </div>
+                <div class="mood" data-mood="sad">
+                    <div class="emoji">😢</div>
+                    <p>Sad</p>
+                </div>
+                <div class="mood" data-mood="angry">
+                    <div class="emoji">😠</div>
+                    <p>Angry</p>
+                </div>
+                <div class="mood" data-mood="anxious">
+                    <div class="emoji">😰</div>
+                    <p>Anxious</p>
+                </div>
+                <div class="mood" data-mood="excited">
+                    <div class="emoji">🤩</div>
+                    <p>Excited</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-container">
+            <div class="quote-box">
+                <p id="quote-text">Select your mood to see a motivational quote</p>
+                <p id="quote-author"></p>
+            </div>
+            <div class="nav-buttons">
+                <button id="prev-mood" disabled>⬅ Previous</button>
+                <button id="next-mood" disabled>Next ➡</button>
+            </div>
+        </div>
+
+        <div class="history">
+            <h2>Your Mood History</h2>
+            <div id="mood-history"></div>
+        </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
